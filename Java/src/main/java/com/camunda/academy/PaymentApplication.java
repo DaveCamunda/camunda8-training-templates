@@ -46,13 +46,13 @@ public class PaymentApplication {
 				job.getVariables());
 	}
 
-	@JobWorker(type = "credit-deduction") 
+	@JobWorker(type = "insert-worker-name-here") 
 	public void handleCreditDeduction(final JobClient jobClient, final ActivatedJob job) {
 		
 		logJob(job, null);
 	}
   
-	@JobWorker(type = "credit-card-charging") 
+	@JobWorker(type = "insert-worker-name-here-2") 
 	public void handleChargeCreditCard(final JobClient jobClient, final ActivatedJob job) {
 		
 		logJob(job, null);
