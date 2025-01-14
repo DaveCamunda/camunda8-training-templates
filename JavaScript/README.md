@@ -21,27 +21,8 @@ npm install @camunda8/sdk
 2. **Run the program:**
 
 ```bash
-node src/test-sdk.js
+node worker.js
 ```
-
-You should get a message: Camunda 8 *SDK installed successfully* followed by a json file.
-
-## Run
-
-To run the project, use one of the following commands:
-
-```bash
-npm start
-```
-
-or
-
-```bash
-node src/index.js
-```
-
-You will get an error message, that's fine.
-Objective of the training is to do some updates and make it working.
 
 ## Client Documentation
 
@@ -56,7 +37,7 @@ If you encounter issues with installing or verifying the Camunda 8 SDK, here are
    - Check if the package name is correct and the package exists in the npm registry.
    - Confirm that you are using a recent version of Node.js and npm.
 
-2. **Library Loading Issues**: If running `test-sdk.js` results in errors:
+2. **Library Loading Issues**: If running `worker.js` results in errors:
    - Make sure that the `@camunda8/sdk` package is correctly installed in your `node_modules` folder.
    - If you receive a "Cannot find module" error, try reinstalling the package or check your `require` path.
    - Look at the error stack trace for clues on what might be wrong with the library installation.
