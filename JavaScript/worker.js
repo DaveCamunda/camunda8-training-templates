@@ -1,9 +1,9 @@
-const ZB = require('zeebe-node');
-
-const zbc = new ZB.ZBClient();
+const { Camunda8 } = require('@camunda8/sdk');
 
 (async () => {
 
+  const c8 = new Camunda8();
+  const zbc = c8.getZeebeGrpcApiClient();
 	const topology = await zbc.topology()
 
 	console.log(JSON.stringify(topology, null, 2))
