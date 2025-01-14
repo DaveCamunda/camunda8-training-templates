@@ -1,6 +1,6 @@
 ## Template for the Camunda 8 for Developers Training with Spring
 
-This is your starting point for the Camunda 8 for Developers training.
+This is your starting point for the Camunda 8 for Developers training. Documentation for the client library can be found [here](https://docs.camunda.io/docs/apis-tools/spring-zeebe-sdk/getting-started/).
 
 ## Prerequisites
 
