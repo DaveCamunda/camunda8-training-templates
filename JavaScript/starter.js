@@ -1,4 +1,4 @@
-const config = require('../config.json');      /* API credentials */
+const config = require('../starter_config.json');      /* API credentials */
 const { Camunda8 } = require('@camunda8/sdk'); /* npm i @camunda8/sdk */
 
 let client;
